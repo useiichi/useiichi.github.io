@@ -1,33 +1,47 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[My Octopress Blog]]></title>
+  <title><![CDATA[RubyとかRailsとか]]></title>
   <link href="http://useiichi.github.io/atom.xml" rel="self"/>
   <link href="http://useiichi.github.io/"/>
-  <updated>2014-02-16T23:18:09+09:00</updated>
+  <updated>2014-02-17T23:29:15+09:00</updated>
   <id>http://useiichi.github.io/</id>
   <author>
-    <name><![CDATA[Your Name]]></name>
+    <name><![CDATA[useiichi]]></name>
     
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
   
   <entry>
-    <title type="html"><![CDATA[postAAAtitle]]></title>
-    <link href="http://useiichi.github.io/blog/2014/02/16/postaaatitle/"/>
-    <updated>2014-02-16T22:37:08+09:00</updated>
-    <id>http://useiichi.github.io/blog/2014/02/16/postaaatitle</id>
-    <content type="html"><![CDATA[
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Post Title]]></title>
-    <link href="http://useiichi.github.io/blog/2014/02/16/post-title/"/>
-    <updated>2014-02-16T19:21:05+09:00</updated>
-    <id>http://useiichi.github.io/blog/2014/02/16/post-title</id>
-    <content type="html"><![CDATA[
+    <title type="html"><![CDATA[Ruby2.1.0のRubyInstallerをビルドする]]></title>
+    <link href="http://useiichi.github.io/blog/2014/02/16/post-titlebb/"/>
+    <updated>2014-02-16T23:45:59+09:00</updated>
+    <id>http://useiichi.github.io/blog/2014/02/16/post-titlebb</id>
+    <content type="html"><![CDATA[<p>Ruby2.1.0がリリースされてから２か月ほど経ちますが、まだRubyInstallerがリリースされてないですね。
+WindowsユーザーでRuby2.1.0をインストールできずに困っている方も多いのではないでしょうか。</p>
+
+<p>Ruby2.1.0版のRubyInstallerはどうなっとんのかいと思いググったら、英語の情報で、GitHubからダウンロードして自分で
+ビルドせよという解決策の投稿を発見しました。</p>
+
+<p>そこで、私もGitHubからソースを持ってきてビルドしてみたところ、RubyInstallerとdevkitのビルドに成功し、
+WinにRuby2.1.0を導入することができましたので、そのやり方を紹介したいと思います。</p>
+
+<h2>RubyInstallerのGitHub</h2>
+
+<p><a href="https://github.com/oneclick/rubyinstaller">https://github.com/oneclick/rubyinstaller</a></p>
+
+<h2>事前準備</h2>
+
+<p>Ruby環境（2.0 or 1.9など）をインストールしておく</p>
+
+<h2>git clone</h2>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>Awesome code snippet</span></code></pre></td></tr></table></div></figure>
+
+
+<p>あああ</p>
 ]]></content>
   </entry>
   

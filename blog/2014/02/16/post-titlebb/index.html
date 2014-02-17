@@ -5,12 +5,12 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Post Title - My Octopress Blog</title>
-  <meta name="author" content="Your Name">
+  <title>Ruby2.1.0のRubyInstallerをビルドする - RubyとかRailsとか</title>
+  <meta name="author" content="useiichi">
 
   
-  <meta name="description" content="
-">
+  <meta name="description" content="Ruby2.1.0がリリースされてから２か月ほど経ちますが、まだRubyInstallerがリリースされてないですね。
+WindowsユーザーでRuby2.1.0をインストールできずに困っている方も多いのではないでしょうか。 Ruby2.1. &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -19,10 +19,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://useiichi.github.io/blog/2014/02/16/post-title">
+  <link rel="canonical" href="http://useiichi.github.io/blog/2014/02/16/post-titlebb">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
-  <link href="/atom.xml" rel="alternate" title="My Octopress Blog" type="application/atom+xml">
+  <link href="/atom.xml" rel="alternate" title="RubyとかRailsとか" type="application/atom+xml">
   <script src="/javascripts/modernizr-2.0.js"></script>
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
   <script>!window.jQuery && document.write(unescape('%3Cscript src="./javascripts/libs/jquery.min.js"%3E%3C/script%3E'))</script>
@@ -37,9 +37,9 @@
 
 <body   >
   <header role="banner"><hgroup>
-  <h1><a href="/">My Octopress Blog</a></h1>
+  <h1><a href="/">RubyとかRailsとか</a></h1>
   
-    <h2>A blogging framework for hackers.</h2>
+    <h2>RubyとかRailsとかについてのメモを掲載していきたいと思います。</h2>
   
 </hgroup>
 
@@ -69,7 +69,7 @@
   
   <header>
     
-      <h1 class="entry-title">Post Title</h1>
+      <h1 class="entry-title">Ruby2.1.0のRubyInstallerをビルドする</h1>
     
     
       <p class="meta">
@@ -85,14 +85,37 @@
   
 
 
-<time datetime="2014-02-16T19:21:05+09:00" pubdate data-updated="true">Feb 16<span>th</span>, 2014</time>
+<time datetime="2014-02-16T23:45:59+09:00" pubdate data-updated="true">Feb 16<span>th</span>, 2014</time>
         
       </p>
     
   </header>
 
 
-<div class="entry-content">
+<div class="entry-content"><p>Ruby2.1.0がリリースされてから２か月ほど経ちますが、まだRubyInstallerがリリースされてないですね。
+WindowsユーザーでRuby2.1.0をインストールできずに困っている方も多いのではないでしょうか。</p>
+
+<p>Ruby2.1.0版のRubyInstallerはどうなっとんのかいと思いググったら、英語の情報で、GitHubからダウンロードして自分で
+ビルドせよという解決策の投稿を発見しました。</p>
+
+<p>そこで、私もGitHubからソースを持ってきてビルドしてみたところ、RubyInstallerとdevkitのビルドに成功し、
+WinにRuby2.1.0を導入することができましたので、そのやり方を紹介したいと思います。</p>
+
+<h2>RubyInstallerのGitHub</h2>
+
+<p><a href="https://github.com/oneclick/rubyinstaller">https://github.com/oneclick/rubyinstaller</a></p>
+
+<h2>事前準備</h2>
+
+<p>Ruby環境（2.0 or 1.9など）をインストールしておく</p>
+
+<h2>git clone</h2>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>Awesome code snippet</span></code></pre></td></tr></table></div></figure>
+
+
+<p>あああ</p>
 </div>
 
 
@@ -101,7 +124,7 @@
       
   
 
-<span class="byline author vcard">Posted by <span class="fn">Your Name</span></span>
+<span class="byline author vcard">Posted by <span class="fn">useiichi</span></span>
 
       
 
@@ -115,7 +138,7 @@
   
 
 
-<time datetime="2014-02-16T19:21:05+09:00" pubdate data-updated="true">Feb 16<span>th</span>, 2014</time>
+<time datetime="2014-02-16T23:45:59+09:00" pubdate data-updated="true">Feb 16<span>th</span>, 2014</time>
       
 
 
@@ -123,7 +146,7 @@
     
       <div class="sharing">
   
-  <a href="//twitter.com/share" class="twitter-share-button" data-url="http://useiichi.github.io/blog/2014/02/16/post-title/" data-via="" data-counturl="http://useiichi.github.io/blog/2014/02/16/post-title/" >Tweet</a>
+  <a href="//twitter.com/share" class="twitter-share-button" data-url="http://useiichi.github.io/blog/2014/02/16/post-titlebb/" data-via="" data-counturl="http://useiichi.github.io/blog/2014/02/16/post-titlebb/" >Tweet</a>
   
   
   
@@ -132,8 +155,6 @@
     
     <p class="meta">
       
-      
-        <a class="basic-alignment right" href="/blog/2014/02/16/postaaatitle/" title="Next Post: postAAAtitle">postAAAtitle &raquo;</a>
       
     </p>
   </footer>
@@ -154,11 +175,7 @@
   <ul id="recent_posts">
     
       <li class="post">
-        <a href="/blog/2014/02/16/postaaatitle/">postAAAtitle</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2014/02/16/post-title/">Post Title</a>
+        <a href="/blog/2014/02/16/post-titlebb/">Ruby2.1.0のRubyInstallerをビルドする</a>
       </li>
     
   </ul>
@@ -175,7 +192,7 @@
     </div>
   </div>
   <footer role="contentinfo"><p>
-  Copyright &copy; 2014 - Your Name -
+  Copyright &copy; 2014 - useiichi -
   <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
 </p>
 
@@ -187,8 +204,8 @@
       
         
         // var disqus_developer = 1;
-        var disqus_identifier = 'http://useiichi.github.io/blog/2014/02/16/post-title/';
-        var disqus_url = 'http://useiichi.github.io/blog/2014/02/16/post-title/';
+        var disqus_identifier = 'http://useiichi.github.io/blog/2014/02/16/post-titlebb/';
+        var disqus_url = 'http://useiichi.github.io/blog/2014/02/16/post-titlebb/';
         var disqus_script = 'embed.js';
       
     (function () {
